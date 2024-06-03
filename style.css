@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+}
+  .container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.sun{
+    background-color: rgb(227, 227, 80);
+    height: 180px;
+    width: 100px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    align-items: flex-start;
+    z-index: 70;
+}
+.planet{
+        border-radius: 50%;
+        display: inline-block;
+        margin: 10px;
+        position: relative;
+
+ }
+ .mercury {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    left: 5.4%;
+}
+.venus {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(215, 167, 76);
+    left: 6.3%;
+}
+.earth {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(47, 174, 216);
+    left: 6.9%;
+}
+.mars {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(224, 105, 54);
+    left: 7.5%;
+}
+.jupiter {
+    width: 55px;
+    height: 55px;
+    background-color: rgb(136, 36, 36);
+    left: 7.6%;
+}
+.saturn {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(227, 221, 28);
+    position: relative;
+    left: 6.7%;
+}
+.saturn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 8px;
+    background-color: rgb(227, 221, 28);
+    border: 2px solid rgb(227, 221, 28);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.uranus {
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    left: 6.5%;
+}
+.neptune {
+    width: 40px;
+    height: 40px;
+    background-color: darkblue;
+    left: 6.5%;
+}
+.orbit {
+    position: absolute;
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 50%;
+    transform: translateX(10%);
+}
+.orbit1 {
+    width: 250px;
+    height: 250px;
+}
+.orbit2 {
+    width: 350px;
+    height: 350px;
+}
+.orbit3 {
+    width: 450px;
+    height: 450px;
+}
+.orbit4 {
+    width: 550px;
+    height: 550px;
+}
+.orbit5 {
+    width: 650px;
+    height: 650px;
+}
+.orbit6 {
+    width: 750px;
+    height: 750px;
+}
+.orbit7 {
+    width: 850px;
+    height: 850px;
+}
+.orbit8 {
+    width: 950px;
+    height: 950px;
+}
